@@ -1,0 +1,41 @@
+
+body {
+    background: white;
+}
+
+
+.navbar-brand {
+    font-family: "Bebas Neue", sans-serif;
+    color: #00295b;
+    font-size: 24px; /* Puedes ajustar el tamaño de la fuente */
+    font-weight: 700; /* Puedes ajustar el peso de la fuente */
+}
+
+
+.navbar {
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.nav-link {
+    color: #000000; /* Cambiar el color de los enlaces */
+}
+
+.nav-link:hover {
+    color: #066ae4; /* Color al pasar el mouse */
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa; /* Fondo del menú desplegable */
+}
+
+.banner {
+    background-image: url('./img/Stanislav.jpeg');
+    height: 400px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Asegura que la imagen cubra todo el espacio */
+    background-position: center; /* Centra la imagen */
+}
+
+h1 { 
+    font-family: "Bebas Neue", sans-serif;
+}
