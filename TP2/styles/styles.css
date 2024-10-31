@@ -1,4 +1,3 @@
-
 body {
     background: white;
 }
@@ -6,7 +5,7 @@ body {
 
 .navbar-brand {
     font-family: "Bebas Neue", sans-serif;
-    color: #00295b;
+    color: white;
     font-size: 24px; /* Puedes ajustar el tamaño de la fuente */
     font-weight: 700; /* Puedes ajustar el peso de la fuente */
 }
@@ -14,11 +13,21 @@ body {
 
 .navbar {
     border-radius: 5px; /* Bordes redondeados */
+    background-color:  #e36414;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
+.nav-link.active {
+    color: white !important;
+}
+
+.nav-item {
+    color: white;
+
+}
+
 .nav-link {
-    color: #000000; /* Cambiar el color de los enlaces */
+    color: white; /* Cambiar el color de los enlaces */
 }
 
 .nav-link:hover {
@@ -29,13 +38,38 @@ body {
     background-color: #f8f9fa; /* Fondo del menú desplegable */
 }
 
-.banner {
-    background-image: url('./img/Stanislav.jpeg');
-    height: 400px; /* Ajusta la altura según sea necesario */
-    background-size: cover; /* Asegura que la imagen cubra todo el espacio */
-    background-position: center; /* Centra la imagen */
-}
+
+
 
 h1 { 
     font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+.fondonaranja {
+    background-color: #e36414;
+    padding: 40px 0;
+}
+
+.fondonaranja h2, .fondonaranja p {
+    color: rgb(255, 236, 236); /* Cambia el color del texto a blanco */
+}
+
+
+
+
+
+footer {
+    margin-top: 20px; /* Ajusta el margen superior según lo que necesites */
+}
+
+footer a {
+    color: #e36414; /* Color de los enlaces en el footer */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayar los enlaces al pasar el ratón */
 }
