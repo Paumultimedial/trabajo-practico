@@ -31,7 +31,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #066ae4; /* Color al pasar el mouse */
+    color: #333333; /* Color al pasar el mouse */
 }
 
 .dropdown-menu {
@@ -41,10 +41,15 @@ body {
 
 
 
-h1, h3, h2 { 
+h1, h3, h2, h4, h5 { 
     font-family: "Bebas Neue", sans-serif;
 }
 
+
+h4 { 
+    font-family: "Bebas Neue", sans-serif;
+    color: antiquewhite;
+}
 
 
 
@@ -62,6 +67,20 @@ h1, h3, h2 {
 
 
 
+
+.btn-outline-light:hover {
+    background-color: antiquewhite; /* Mantiene el fondo transparente al pasar el cursor */
+    border-color:antiquewhite; /* Color del borde al hacer hover */
+    color: #333333; /* Asegura que el texto siga siendo blanco */
+}
+
+
+
+
+.eventos {
+    background-color: #e36414;
+    color: antiquewhite;
+}
 
 
 footer {
