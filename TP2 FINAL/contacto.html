@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Goa Gil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <!-- Enlace directo a Inicio -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+
+                    <!-- Enlace directo a Sobre Goa Gil -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./goagil.html">Goa Gil</a>
+                    </li>
+
+                    <!-- Enlace directo a Goa Gil tv -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./goagiltv.html">Goa Gil TV</a>
+                    </li>
+
+                    <!-- Dropdown para Discografía -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./discografia.html" id="discografiaDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Discografía</a>
+                        <ul class="dropdown-menu" aria-labelledby="discografiaDropdown">
+                            <li><a class="dropdown-item" href="discografia.html">Discografía</a></li>
+                            <li><a class="dropdown-item" href="./sub/proyectos.html">Proyectos Musicales</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown para Eventos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./eventos.html" id="eventosDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Eventos</a>
+                        <ul class="dropdown-menu" aria-labelledby="eventosDropdown">
+                            <li><a class="dropdown-item" href="./eventos.html">Eventos</a></li>
+                            <li><a class="dropdown-item" href="./sub/galeria.html">Galería</a></li>
+                        </ul>
+                    </li>
+
+
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paulaponzo.html">Sobre mi</a>
+                    </li>
+
+                    <!-- Enlace directo a Contacto -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container mt-5">
+        <h2>CONTACTO</h2>
+        <form id="miFormulario">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        <div id="mensaje" class="mt-3" style="color: #e36414;"></div>
+    </div>
+
+
+
+
+
+
+    <footer class="w-100">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2024 Trabajo Practico IG</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="./paulaponzo.html">Paula Ponzo - Artes Multimediales</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="script/scriptcontacto.js"></script>
+</body>
+
+</html>

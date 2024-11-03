@@ -1,0 +1,120 @@
+body {
+    background: white;
+}
+
+
+.navbar-brand {
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 24px; /* Puedes ajustar el tamaño de la fuente */
+    font-weight: 700; /* Puedes ajustar el peso de la fuente */
+}
+
+
+.navbar {
+    border-radius: 5px; /* Bordes redondeados */
+    background-color:  #e36414;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.nav-item {
+    color: white;
+
+}
+
+.nav-link {
+    color: white; /* Cambiar el color de los enlaces */
+}
+
+.nav-link:hover {
+    color: #333333; /* Color al pasar el mouse */
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa; /* Fondo del menú desplegable */
+}
+
+
+
+
+h1, h3, h2, h4, h5 { 
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+h4 { 
+    font-family: "Bebas Neue", sans-serif;
+    color: antiquewhite;
+}
+
+
+
+.fondonaranja {
+    background-color: #e36414;
+    padding: 40px 0;
+}
+
+.fondonaranja h2, .fondonaranja p {
+    color: rgb(255, 236, 236); /* Cambia el color del texto a blanco */
+}
+
+
+.btn-primary {
+   background-color: #e36414;
+   border: none; /* Elimina el borde */
+   margin-top: 1em;
+
+}
+
+
+.btn-primary:hover {
+    background-color: #c85a0f; /* Cambia el color de fondo al pasar el cursor */
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+
+.btn-outline-light:hover {
+    background-color: antiquewhite; /* Mantiene el fondo transparente al pasar el cursor */
+    border-color:antiquewhite; /* Color del borde al hacer hover */
+    color: #333333; /* Asegura que el texto siga siendo blanco */
+}
+
+
+
+
+.eventos {
+    background-color: #e36414;
+    color: antiquewhite;
+}
+
+
+
+
+
+.titulo-galeria {
+    margin-top: 2em;
+}
+
+.contenedor-galeria {
+    margin: 0 15px; /* Margen lateral para ajustar la galería dentro de la pantalla */
+    padding-bottom: 20px; /* Espacio en la parte inferior */
+}
+
+
+
+footer {
+    margin-top: 20px; /* Ajusta el margen superior según lo que necesites */
+}
+
+footer a {
+    color: #e36414; /* Color de los enlaces en el footer */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayar los enlaces al pasar el ratón */
+}
